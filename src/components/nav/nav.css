@@ -1,0 +1,117 @@
+/* archivo nav.css*/
+.boton {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  border: none;
+  height: 100%;
+  padding-bottom: 0;
+  width: 297px;
+  height: 55px;
+  font-size: 14px;
+}
+
+/* Estilos para el offcanvas */
+.offcanvas-top {
+  height: 460px;
+  flex-shrink: 0;
+  background: #fff;
+}
+
+.offcanvas-show {
+  height: 60rem;
+  flex-shrink: 0;
+  background: #fff;
+}
+
+/* Estilos para el contenido del offcanvas */
+.offcanvas-body {
+  height: 25rem;
+  flex-shrink: 0;
+  background: #fff;
+}
+
+.botonsito {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-right: 1px solid #f2f2f2;
+  font-weight: 400;
+}
+
+.btn-selected {
+  border: 2px solid black;
+}
+
+.label {
+  color: #333;
+  font-family: Mulish;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.bl {
+  color: #333;
+}
+.gr {
+  color: #bdbdbd;
+}
+
+.or {
+  color: #eb5757;
+}
+
+.obj {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 127px;
+  height: 48px;
+  border: none;
+  border-radius: 16px;
+  background: #eb5757;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1);
+  color: #f2f2f2;
+}
+
+.guest-loc-bar {
+  display: flex;
+  width: 1248px;
+  height: 55px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.text-guests {
+  color: #333;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.label{
+  color: #BDBDBD;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.selected {
+  color: #eb5757; /* Cambia el color a tu preferencia */
+}
